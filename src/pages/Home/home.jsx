@@ -1,7 +1,7 @@
 // import React from "react";
 import "./home.css";
 import React, { useRef, useState } from "react";
-import QualiltyLab from "../../assets/Images/Quality-Lab.jpeg";
+import qualityLab from "../../assets/images/quality-lab.jpeg";
 import WelcomeBanner from "../../assets/Images/welcome-banner.jpg";
 import videoThumb from "/public/images/botanic-video-thumb.jpg";
 
