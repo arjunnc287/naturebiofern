@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
-import "./Contact.css";
+import emailjs from "@emailjs/browser";
+import "./contact.css";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -33,13 +33,13 @@ const Contact = () => {
         "service_6phc6wf", // 🔹 Replace with your EmailJS Service ID
         "template_ai1q82v", // 🔹 Replace with your EmailJS Template ID
         formData,
-        "Qz5w_p7A4u0Cd-KFl" // 🔹 Replace with your EmailJS Public Key
+        "Qz5w_p7A4u0Cd-KFl", // 🔹 Replace with your EmailJS Public Key
       )
       .then(
         (result) => {
           console.log(result.text);
           setSubmitMessage(
-            "✅ Thank you for contacting us! We will reply within 24 hours."
+            "✅ Thank you for contacting us! We will reply within 24 hours.",
           );
           setFormData({
             name: "",
@@ -56,7 +56,7 @@ const Contact = () => {
           console.error(error.text);
           setSubmitMessage("❌ Something went wrong. Please try again later.");
           setIsSubmitting(false);
-        }
+        },
       );
   };
 
