@@ -1,0 +1,92 @@
+/* Banner */
+.csr-banner {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.csr-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.csr-banner-content {
+  position: relative;
+  color: whitesmoke;
+  padding-left: 80px;
+}
+
+.csr-banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.csr-banner-content p {
+  font-size: 14px;
+  color: #cde7c9;
+}
+
+/* Main Container */
+.csr-container {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Grid */
+.csr-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.csr-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Text */
+.csr-text h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.csr-text p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Details */
+.csr-details {
+  margin-top: 50px;
+}
+
+.csr-details h3 {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+.csr-details p {
+  font-size: 14.5px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .csr-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .csr-banner-content {
+    padding-left: 20px;
+  }
+}

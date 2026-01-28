@@ -1,0 +1,113 @@
+/* ===============================
+   HERO SECTION
+================================ */
+.resource-hero {
+  height: 320px;
+  background-image: url("/images/about-building.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.resource-hero-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resource-hero-overlay h1 {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.resource-hero-overlay p {
+  color: #cde5c6;
+  font-size: 14px;
+}
+
+.resource-hero-overlay span {
+  color: #6ac259;
+}
+
+/* ===============================
+   UPGRADE SECTION
+================================ */
+.resource-upgrade {
+  padding: 140px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    rgba(240, 244, 248, 0.95),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+.upgrade-card {
+  max-width: 760px;
+  padding: 60px 50px;
+  text-align: center;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(12px);
+  animation: fadeUp 0.9s ease;
+}
+
+.upgrade-badge {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 6px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2f855a;
+  background: rgba(47, 133, 90, 0.1);
+  border-radius: 20px;
+}
+
+.upgrade-card h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #1f2933;
+  margin-bottom: 18px;
+}
+
+.upgrade-card p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.8;
+}
+
+.upgrade-line {
+  width: 90px;
+  height: 3px;
+  margin: 30px auto;
+  background: linear-gradient(90deg, #6ac259, #2f855a);
+  border-radius: 10px;
+}
+
+.upgrade-sub {
+  font-size: 13px;
+  color: #6b7280;
+  letter-spacing: 0.4px;
+}
+
+/* ===============================
+   ANIMATION
+================================ */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

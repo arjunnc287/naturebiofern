@@ -1,0 +1,108 @@
+/* ===== HERO ===== */
+.mt-hero {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+}
+
+.mt-hero-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.mt-hero-overlay h1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.mt-hero-overlay p {
+  font-size: 14px;
+  color: #9ad17d;
+}
+
+.mt-hero-overlay span {
+  color: #ffffff;
+}
+
+/* ===== MAIN ===== */
+.mt-container {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.mt-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.mt-description {
+  font-size: 13px;
+  max-width: 900px;
+  margin: 0 auto 50px;
+  color: #666;
+}
+
+/* ===== GRID ===== */
+.mt-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-items: center;
+}
+
+.mt-card {
+  width: 220px;
+}
+
+.mt-card img {
+  width: 100%;
+  background: #bfbfbf;
+}
+
+.mt-card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.mt-card p {
+  font-size: 11px;
+  color: #777;
+}
+
+/* ===== FOOTER TEXT ===== */
+.mt-footer {
+  margin-top: 60px;
+  font-size: 11px;
+  font-style: italic;
+  color: #444;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+  .mt-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .mt-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mt-hero-overlay {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mt-grid {
+    grid-template-columns: 1fr;
+  }
+}

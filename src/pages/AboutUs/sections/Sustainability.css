@@ -1,0 +1,111 @@
+/* HERO */
+.sustainability-hero {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  height: 100%;
+  padding: 60px 80px;
+  color: #fff;
+}
+
+.hero-overlay h1 {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.hero-overlay p {
+  font-size: 14px;
+  color: #9be37a;
+}
+
+/* INTRO */
+.sustainability-intro {
+  padding: 80px;
+  background: #fff;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.intro-image img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.intro-content h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.intro-content h3 {
+  margin-top: 25px;
+  font-size: 22px;
+}
+
+.intro-content p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* IMS */
+.ims-section {
+  padding: 80px;
+}
+
+.ims-section h2 {
+  font-size: 28px;
+}
+
+.ims-subtitle {
+  margin: 10px 0 30px;
+  color: #555;
+}
+
+.ims-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.ims-list li {
+  margin-bottom: 25px;
+}
+
+.ims-list h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* COMMUNITY */
+.community-section {
+  padding: 80px;
+  background: #fff;
+}
+
+.community-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.community-section h3 {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.community-section h4 {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.community-section p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,22 @@
+.innovation-page {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.innovation-page .container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.innovation-page h1 {
+  font-size: 36px;
+  color: #064e3b;
+  margin-bottom: 20px;
+}
+
+.innovation-page p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}

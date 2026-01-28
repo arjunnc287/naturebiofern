@@ -1,0 +1,74 @@
+.who-container {
+  width: 100%;
+  background: #fff;
+}
+
+/* HERO */
+.who-hero {
+  height: 340px;
+  background: url("/images/about-building.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.who-hero-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  padding: 80px;
+  color: #fff;
+}
+
+.who-hero-overlay h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.who-hero-overlay p span {
+  color: #6fcf97;
+}
+
+/* OUR STORY */
+.our-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 50px;
+}
+
+.story-left img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.story-right h2 {
+  margin-bottom: 20px;
+}
+
+.story-right p {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+/* LEGACY */
+.legacy {
+  padding: 80px;
+  text-align: center;
+}
+
+.timeline {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  gap: 40px;
+}
+
+.timeline h3 {
+  color: #4caf50;
+}
+
+.timeline ul {
+  padding-left: 18px;
+}
+
+.timeline-center img {
+  width: 100%;
+}

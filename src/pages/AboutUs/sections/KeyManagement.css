@@ -1,0 +1,75 @@
+/* ===== HERO SECTION ===== */
+.km-hero {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.km-hero-overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  color: #fff;
+}
+
+.km-hero-overlay h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.km-hero-overlay p {
+  font-size: 14px;
+  color: #9ad17d;
+}
+
+.km-hero-overlay p span {
+  color: #ffffff;
+}
+
+/* ===== MAIN SECTION ===== */
+.km-container {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.km-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+/* ===== CARDS ===== */
+.km-cards {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.km-card {
+  max-width: 320px;
+}
+
+.km-card img {
+  width: 100%;
+  height: auto;
+  background: #bfbfbf;
+}
+
+.km-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.km-role {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #a0a0a0;
+  margin-top: 5px;
+}

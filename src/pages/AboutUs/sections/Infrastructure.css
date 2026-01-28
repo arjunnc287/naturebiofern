@@ -1,0 +1,84 @@
+/* Banner */
+.infra-banner {
+  background: url("/images/about-building.jpg") center / cover no-repeat;
+  height: 260px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.infra-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.infra-banner-content {
+  position: relative;
+  padding-left: 80px;
+  color: #ffffff;
+}
+
+.infra-banner-content h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.infra-banner-content p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #9be15d;
+}
+
+/* Section */
+.infra-section {
+  padding: 70px 20px;
+}
+
+.infra-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+/* Image */
+.infra-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+/* Content */
+.infra-content h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.infra-content p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 16px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .infra-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .infra-banner-content {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .infra-banner-content h1 {
+    font-size: 30px;
+  }
+}

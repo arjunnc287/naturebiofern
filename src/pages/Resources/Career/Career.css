@@ -1,0 +1,45 @@
+.career-banner {
+  background-image: url("/images/about-building.jpg");
+}
+
+.career-container {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.career-box {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 30px;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+
+.filters h4 {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.filters label {
+  display: block;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.jobs .job {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.jobs h3 {
+  color: #4c5cff;
+  font-size: 16px;
+}
+
+.jobs p {
+  font-size: 13px;
+  margin-top: 4px;
+}

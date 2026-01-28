@@ -1,0 +1,122 @@
+/* Banner */
+.cert-banner {
+  background: url("/images/about-building.jpg") center/cover no-repeat;
+  height: 260px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cert-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.cert-banner-content {
+  position: relative;
+  color: #fff;
+  padding-left: 80px;
+}
+
+.cert-banner-content h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.cert-banner-content p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #9be15d;
+}
+
+/* Section */
+.cert-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 20px;
+}
+
+.cert-section h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.cert-desc {
+  max-width: 780px;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 10px 0 40px;
+  color: #444;
+}
+
+/* Grid */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+/* Card */
+.cert-card {
+  border: 2px solid #ffccbc;
+  padding: 22px 18px;
+  text-align: center;
+  background: #fff;
+}
+
+.cert-img {
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cert-img img {
+  max-width: 120px;
+  max-height: 100px;
+}
+
+.cert-card h3 {
+  margin: 14px 0 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cert-card p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.read-more {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #2e7d32;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .cert-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-banner-content {
+    padding-left: 30px;
+  }
+
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}

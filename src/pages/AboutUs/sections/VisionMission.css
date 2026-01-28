@@ -1,0 +1,99 @@
+.vm-container {
+  width: 100%;
+  background: #ffffff;
+}
+
+/* HERO */
+.vm-hero {
+  height: 320px;
+  background: url("/images/about-building.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.vm-hero-overlay {
+  height: 100%;
+  padding: 80px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+}
+
+.vm-hero-overlay h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.vm-hero-overlay p span {
+  color: #6fcf97;
+}
+
+/* VISION & MISSION */
+.vm-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 80px;
+  gap: 80px;
+  text-align: center;
+}
+
+.vm-box h2 {
+  color: #4caf50;
+  margin-bottom: 15px;
+}
+
+.vm-box p {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* CORE VALUES */
+.core-values {
+  padding: 80px;
+  text-align: center;
+}
+
+.core-values h2 {
+  margin-bottom: 50px;
+  font-size: 34px;
+  color: #1f3b57;
+}
+
+.values-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.value-card {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  padding: 25px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.value-card h3 {
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.value-card ul {
+  font-size: 12px;
+  padding-left: 15px;
+  text-align: left;
+}
+
+.dark-blue {
+  background: #1f3b57;
+}
+
+.green {
+  background: #2e7d32;
+}
